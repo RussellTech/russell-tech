@@ -1,0 +1,11 @@
+name = "russell-tech"
+type = "webpack"
+account_id = "79c7e89f2dc9ec1005566e3097168a24"
+workers_dev = false
+route = "russell-tech.co.uk/*"
+zone_id = "ad2e87ca0227c76337713e627516dc3e"
+
+[site]
+bucket = "./public" # <-- Add your build directory name here!
+entry-point = "workers-site"
+
