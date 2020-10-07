@@ -1,38 +1,30 @@
 ---
 anchor: "Team"
-header: "Our Amazing Team"
-subheader: "Lorem ipsum dolor sit amet consectetur."
-content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+header: "Our Team"
+subheader: ""
+content: ""
 teamMember: [
   {
-    imageFileName: "team/1.jpg",
-    header: "Kay Garland",
-    subheader: "Lead Designer",
+    imageFileName: "team/aaron.jpg",
+    header: "Aaron Russell",
+    subheader: "Director and Developer",
     social: {
       twitter: "#",
       facebook: "#",
-      linkedin: "#"
+      linkedin: "#",
+      portfolio: "#"
     }
   },
   {
     imageFileName: "team/2.jpg",
-    header: "Larry Parker",
-    subheader: "Lead Marketer",
+    header: "Naomi Russell",
+    subheader: "Director",
     social: {
       twitter: "#",
       facebook: "#",
-      medium: "#"
+      medium: "#",
+      portfolio: "#"
     }
-  },
-  {
-    imageFileName: "team/3.jpg",
-    header: "Diana Pertersen",
-    subheader: "Lead Developer",
-    social: {
-      twitter: "#",
-      facebook: "#",
-      medium: "#"
-    }
-  },
+  }
 ]
 ---

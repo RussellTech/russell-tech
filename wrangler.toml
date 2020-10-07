@@ -8,4 +8,3 @@ zone_id = "ad2e87ca0227c76337713e627516dc3e"
 [site]
 bucket = "./public" # <-- Add your build directory name here!
 entry-point = "workers-site"
-

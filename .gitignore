@@ -70,3 +70,4 @@ yarn-error.log
 
 # JetBrains
 .idea/
+.cache/caches/gatsby-transformer-sharp/diskstore-259fa7506dc0e8bf21868bd3b4ea9369.json
