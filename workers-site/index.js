@@ -26,7 +26,13 @@ addEventListener('fetch', event => {
 
 async function handleEvent(event) {
   const url = new URL(event.request.url)
-  let options = {}
+  let options = {
+    cacheControl: {
+      bypassCache: false,
+      edgeTTL: 1000 * 60 * 2,
+      browserTTL: 1000 * 60 * 24 * 12
+    }
+  }
 
   /**
    * You can add custom logic to how we fetch your assets
@@ -51,7 +57,7 @@ async function handleEvent(event) {
         })
 
         return new Response(notFoundResponse.body, { ...notFoundResponse, status: 404 })
-      } catch (e) {}
+      } catch (e) { }
     }
 
     return new Response(e.message || e.toString(), { status: 500 })
